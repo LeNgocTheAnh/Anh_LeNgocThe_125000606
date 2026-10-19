@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pet Paradise - Thiên đường mua sắm và chăm sóc toàn diện cho thú cưng. Dịch vụ Spa, cắt tỉa lông, khám sức khỏe và sản phẩm cao cấp chính hãng.">
+  <title>Pet Paradise - Thiên Đường Chăm Sóc & Mua Sắm Cho Thú Cưng</title>
+
+  <!-- Google Fonts: Quicksand (Font tròn trịa, tươi sáng, thân thiện) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Animate.css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <!-- Logo Pet Paradise -->
+      <a href="#hero" class="brand-logo" aria-label="Pet Shop Trang chủ">
+        <img src="asset/logo.svg" alt="Pet Shop Logo" class="logo-image" width="220" height="48">
+      </a>
+
+      <!-- Hamburger Button (Biến đổi thành dấu X khi mở) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Chuyển đổi menu điều hướng" aria-expanded="false" aria-controls="siteNav">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <!-- Navigation Menu -->
+      <nav class="site-nav" id="siteNav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Trang chủ</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Dịch vụ</a></li>
+          <li class="nav-item"><a href="#products" class="nav-link">Sản phẩm</a></li>
+          <li class="nav-item"><a href="#reviews" class="nav-link">Đánh giá</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Liên hệ</a></li>
+        </ul>
+        <div class="nav-action">
+          <a href="#contact" class="btn btn-secondary nav-cta">Hotline: 1900 6868</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main>
+
+    <!-- 1. HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <span class="hero-badge">🐾 Chăm sóc tận tâm • Yêu thương trọn vẹn</span>
+        <!-- Tiêu đề lớn kèm hiệu ứng Animate.css -->
+        <h1 class="hero-title animate__animated animate__fadeInDown">
+          Thiên Đường Chăm Sóc &amp; Mua Sắm Dành Cho Thú Cưng
+        </h1>
+        <p class="hero-desc">
+          Mang đến cho các bé cưng trải nghiệm dịch vụ Spa cao cấp, chế độ dinh dưỡng tối ưu cùng thế giới đồ chơi, phụ kiện phong phú chuẩn 5 sao.
+        </p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary btn-large">Khám phá ngay</a>
+          <a href="#services" class="btn btn-outline btn-large">Xem dịch vụ</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">10.000+</span>
+            <span class="stat-label">Bé cưng hài lòng</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Sản phẩm chính hãng</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">4.9 ★</span>
+            <span class="stat-label">Đánh giá từ chủ nuôi</span>
+          </div>
+        </div>
+      </div>
+
+      <figure class="hero-media">
+        <img src="asset/hero-banner.jpg" alt="Chó và mèo cưng xinh đẹp tại Pet Paradise" class="hero-img">
+        <figcaption class="hero-floating-card">
+          <span class="floating-icon">✨</span>
+          <div>
+            <strong>Dịch vụ Spa &amp; Grooming</strong>
+            <small>Ưu đãi 20% cho lần đầu tiên</small>
+          </div>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- 2. SECTION 1: DỊCH VỤ -->
+    <section id="services" class="services-section scroll-reveal">
+      <header class="section-header">
+        <span class="section-tag">Dịch vụ chăm sóc</span>
+        <h2 class="section-title">Dịch Vụ Toàn Diện Chuẩn 5 Sao</h2>
+        <p class="section-subtitle">Từng quy trình được thiết kế nhẹ nhàng, nâng niu sức khỏe và diện mạo của thú cưng.</p>
+      </header>
+
+      <div class="services-grid">
+        <!-- Dịch vụ 1: Tắm Spa -->
+        <article class="service-card">
+          <figure class="service-figure">
+            <img src="asset/service-spa.jpg" alt="Dịch vụ Tắm Spa thư giãn cho thú cưng" class="service-img">
+            <span class="service-badge">Phổ biến nhất</span>
+          </figure>
+          <div class="service-body">
+            <h3 class="service-name">Tắm Spa &amp; Thư Giãn</h3>
+            <p class="service-desc">
+              Sử dụng dầu tắm thảo mộc tự nhiên dưỡng ẩm sâu, sấy chải êm dịu cùng liệu trình massage giải tỏa căng thẳng cho các bé cưng.
+            </p>
+            <ul class="service-features">
+              <li>Làm sạch sâu &amp; khử mùi hôi</li>
+              <li>Dưỡng lông mềm mại, bóng mượt</li>
+              <li>Vệ sinh tai, mắt và móng</li>
+            </ul>
+            <a href="#contact" class="btn btn-sm btn-outline card-btn">Đặt lịch ngay &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Dịch vụ 2: Cắt tỉa lông -->
+        <article class="service-card">
+          <figure class="service-figure">
+            <img src="asset/service-grooming.jpg" alt="Dịch vụ Cắt tỉa lông nghệ thuật" class="service-img">
+            <span class="service-badge">Chuyên nghiệp</span>
+          </figure>
+          <div class="service-body">
+            <h3 class="service-name">Cắt Tỉa Lông Nghệ Thuật</h3>
+            <p class="service-desc">
+              Tạo kiểu lông thời trang, độc đáo chuẩn theo từng giống loài bởi đội ngũ Groomer giàu kinh nghiệm và tận tâm với động vật.
+            </p>
+            <ul class="service-features">
+              <li>Tạo kiểu Teddy Bear, Pomeranian...</li>
+              <li>Nhuộm lông thảo mộc an toàn</li>
+              <li>Dụng cụ tiệt trùng 100%</li>
+            </ul>
+            <a href="#contact" class="btn btn-sm btn-outline card-btn">Đặt lịch ngay &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Dịch vụ 3: Khám sức khỏe -->
+        <article class="service-card">
+          <figure class="service-figure">
+            <img src="asset/service-vet.jpg" alt="Dịch vụ Khám sức khỏe thú cưng" class="service-img">
+            <span class="service-badge">Bác sĩ chuyên khoa</span>
+          </figure>
+          <div class="service-body">
+            <h3 class="service-name">Khám Sức Khỏe &amp; Tiêm Chủng</h3>
+            <p class="service-desc">
+              Thăm khám tổng quát, siêu âm, xét nghiệm và lên lịch tiêm vaccine định kỳ nhằm đảm bảo bé cưng luôn khỏe mạnh, năng động.
+            </p>
+            <ul class="service-features">
+              <li>Bác sĩ thú y tay nghề cao</li>
+              <li>Vaccine &amp; thuốc chính hãng</li>
+              <li>Tư vấn chế độ dinh dưỡng tối ưu</li>
+            </ul>
+            <a href="#contact" class="btn btn-sm btn-outline card-btn">Đặt lịch ngay &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3. SECTION 2: SẢN PHẨM NỔI BẬT -->
+    <section id="products" class="products-section scroll-reveal">
+      <header class="section-header">
+        <span class="section-tag">Mua sắm cho bé</span>
+        <h2 class="section-title">Sản Phẩm Nổi Bật Được Yêu Thích</h2>
+        <p class="section-subtitle">Cam kết nguồn gốc xuất xứ rõ ràng, chất lượng an toàn tuyệt đối cho bé yêu.</p>
+      </header>
+
+      <div class="products-grid">
+        <!-- Sản phẩm 1: Thức ăn -->
+        <article class="product-card">
+          <figure class="product-figure">
+            <img src="asset/product-food.jpg" alt="Thức ăn hạt dinh dưỡng Royal Pet" class="product-img">
+            <span class="product-pill pill-primary">Bán chạy</span>
+          </figure>
+          <div class="product-body">
+            <span class="product-category">Thức ăn &amp; Dinh dưỡng</span>
+            <h3 class="product-name">Thức Ăn Hạt Hữu Cơ Royal Pet Canin</h3>
+            <p class="product-desc">
+              Giàu Protein từ thịt tươi tự nhiên, bổ sung Omega 3 &amp; 6 giúp lông óng mượt và hệ miễn dịch khỏe mạnh.
+            </p>
+            <div class="product-meta">
+              <div class="price-box">
+                <span class="product-price">285.000₫</span>
+                <span class="old-price">340.000₫</span>
+              </div>
+              <button class="btn btn-sm btn-primary btn-icon" aria-label="Thêm Thức Ăn Hạt vào giỏ">
+                🛒 Thêm vào giỏ
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Sản phẩm 2: Đồ chơi -->
+        <article class="product-card">
+          <figure class="product-figure">
+            <img src="asset/product-toy.jpg" alt="Bóng gặm dây thừng xả stress" class="product-img">
+            <span class="product-pill pill-secondary">Mới về</span>
+          </figure>
+          <div class="product-body">
+            <span class="product-category">Đồ chơi vận động</span>
+            <h3 class="product-name">Bóng Gặm Dây Thừng Cotton Kháng Khuẩn</h3>
+            <p class="product-desc">
+              Chất liệu sợi cotton 100% siêu bền bỉ, giúp làm sạch mảng bám trên răng, xoa dịu nướu và giải tỏa âu lo khi ở một mình.
+            </p>
+            <div class="product-meta">
+              <div class="price-box">
+                <span class="product-price">120.000₫</span>
+                <span class="old-price">150.000₫</span>
+              </div>
+              <button class="btn btn-sm btn-primary btn-icon" aria-label="Thêm Bóng Gặm vào giỏ">
+                🛒 Thêm vào giỏ
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Sản phẩm 3: Phụ kiện -->
+        <article class="product-card">
+          <figure class="product-figure">
+            <img src="asset/product-accessory.jpg" alt="Vòng cổ yếm phong cách phản quang" class="product-img">
+            <span class="product-pill pill-accent">Hot Deal</span>
+          </figure>
+          <div class="product-body">
+            <span class="product-category">Phụ kiện thời trang</span>
+            <h3 class="product-name">Vòng Cổ Yếm Êm Ái Kèm Dây Dắt Phản Quang</h3>
+            <p class="product-desc">
+              Thiết kế công thái học chống thắt ngực, đệm lót thoáng khí cùng đường chỉ phản quang an toàn khi dạo chơi ban đêm.
+            </p>
+            <div class="product-meta">
+              <div class="price-box">
+                <span class="product-price">195.000₫</span>
+                <span class="old-price">230.000₫</span>
+              </div>
+              <button class="btn btn-sm btn-primary btn-icon" aria-label="Thêm Vòng Cổ Yếm vào giỏ">
+                🛒 Thêm vào giỏ
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. SECTION 3: Ý KIẾN KHÁCH HÀNG / ĐÁNH GIÁ -->
+    <section id="reviews" class="reviews-section scroll-reveal">
+      <header class="section-header">
+        <span class="section-tag">Cảm nhận khách hàng</span>
+        <h2 class="section-title">Chủ Nuôi Nói Gì Về Pet Paradise?</h2>
+        <p class="section-subtitle">Sự an tâm của bạn và nụ cười rạng rỡ của bé cưng là niềm tự hào lớn nhất của chúng tôi.</p>
+      </header>
+
+      <div class="reviews-grid">
+        <!-- Review 1 -->
+        <article class="review-card">
+          <div class="review-stars" aria-label="5 trên 5 sao">★★★★★</div>
+          <blockquote class="review-quote">
+            "Bé Corgi nhà mình rất nhát nước và sợ tiếng máy sấy. Thế nhưng khi đến Pet Paradise, các bạn kỹ thuật viên vuốt ve làm quen rất chu đáo. Lúc đón bé về thì lông mềm mượt thơm nức nở, bé vui vẻ hoạt bát không hề bị stress chút nào!"
+          </blockquote>
+          <footer class="review-author">
+            <img src="asset/avatar-1.jpg" alt="Chân dung Chị Minh Thư" class="author-avatar">
+            <div class="author-details">
+              <cite class="author-name">Minh Thư</cite>
+              <span class="author-role">Chủ bé Corgi Bắp (2 tuổi)</span>
+            </div>
+          </footer>
+        </article>
+
+        <!-- Review 2 -->
+        <article class="review-card">
+          <div class="review-stars" aria-label="5 trên 5 sao">★★★★★</div>
+          <blockquote class="review-quote">
+            "Dịch vụ cắt tỉa lông ở đây tay nghề quá đỉnh! Bé Mèo Ba Tư của mình lông dài hay rối nhưng sau khi được thợ Grooming tạo hình thì tròn xoe như cục bông gòn. Cả nhà ai nhìn cũng mê tít. Giá cả rất hợp lý so với chất lượng."
+          </blockquote>
+          <footer class="review-author">
+            <img src="asset/avatar-2.jpg" alt="Chân dung Anh Hoàng Nam" class="author-avatar">
+            <div class="author-details">
+              <cite class="author-name">Hoàng Nam</cite>
+              <span class="author-role">Chủ mèo Ba Tư Mochi (1.5 tuổi)</span>
+            </div>
+          </footer>
+        </article>
+
+        <!-- Review 3 -->
+        <article class="review-card">
+          <div class="review-stars" aria-label="5 trên 5 sao">★★★★★</div>
+          <blockquote class="review-quote">
+            "Bác sĩ thú y thăm khám cực kỳ nhẹ nhàng và kiên nhẫn giải thích từng chỉ số dinh dưỡng. Mình đặt mua cả thức ăn hạt và vòng cổ ở đây, hàng giao nhanh và date mới tinh. Pet Paradise chắc chắn là địa chỉ ruột của mình dài lâu!"
+          </blockquote>
+          <footer class="review-author">
+            <img src="asset/avatar-3.jpg" alt="Chân dung Chị Lan Phương" class="author-avatar">
+            <div class="author-details">
+              <cite class="author-name">Lan Phương</cite>
+              <span class="author-role">Chủ cún Poodle Đậu Đậu</span>
+            </div>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer id="contact" class="site-footer">
+    <div class="footer-inner">
+      <!-- Cột 1: Thông tin thương hiệu -->
+      <section class="footer-col brand-col">
+        <a href="#hero" class="brand-logo footer-logo" aria-label="Pet Shop">
+          <img src="asset/logo.svg" alt="Pet Shop Logo" class="logo-image" width="200" height="44">
+        </a>
+        <p class="footer-desc">
+          Pet Paradise - Không gian mua sắm phụ kiện, thức ăn dinh dưỡng và chăm sóc y tế, spa làm đẹp uy tín hàng đầu dành cho thú cưng.
+        </p>
+        <div class="social-links" aria-label="Mạng xã hội Pet Paradise">
+          <a href="#" class="social-btn" aria-label="Facebook Pet Paradise">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram Pet Paradise">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="TikTok Pet Paradise">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="YouTube Pet Paradise">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- Cột 2: Điều hướng nhanh -->
+      <section class="footer-col links-col">
+        <h4 class="footer-heading">Liên Kết Nhanh</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Trang chủ</a></li>
+          <li><a href="#services">Dịch vụ Spa &amp; Grooming</a></li>
+          <li><a href="#products">Sản phẩm thú cưng</a></li>
+          <li><a href="#reviews">Đánh giá khách hàng</a></li>
+          <li><a href="#contact">Chính sách bảo hành</a></li>
+        </ul>
+      </section>
+
+      <!-- Cột 3: Thông tin liên hệ & Hotline -->
+      <section class="footer-col contact-col">
+        <h4 class="footer-heading">Thông Tin Liên Hệ</h4>
+        <address class="footer-address">
+          <p class="address-item">
+            <span class="icon">📍</span>
+            <span>123 Đường Thú Cưng, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh</span>
+          </p>
+          <p class="address-item">
+            <span class="icon">📞</span>
+            <span>Hotline: <a href="tel:19006868" class="contact-highlight">1900 6868</a> - <a href="tel:0988123456">0988 123 456</a></span>
+          </p>
+          <p class="address-item">
+            <span class="icon">✉️</span>
+            <span>Email: <a href="mailto:contact@petparadise.vn">contact@petparadise.vn</a></span>
+          </p>
+          <p class="address-item">
+            <span class="icon">⏰</span>
+            <span>Mở cửa: 08:00 - 21:00 (Tất cả các ngày trong tuần)</span>
+          </p>
+        </address>
+      </section>
+
+      <!-- Cột 4: Đăng ký nhận tin -->
+      <section class="footer-col newsletter-col">
+        <h4 class="footer-heading">Nhận Ưu Đãi Mới</h4>
+        <p class="newsletter-desc">Đăng ký để nhận voucher giảm 10% cho đơn hàng đầu tiên của bé cưng!</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã đăng ký nhận tin từ Pet Paradise!');">
+          <input type="email" placeholder="Nhập email của bạn..." required class="newsletter-input" aria-label="Địa chỉ email nhận tin">
+          <button type="submit" class="btn btn-primary newsletter-btn">Đăng ký</button>
+        </form>
+      </section>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2026 <strong>Pet Paradise</strong>. Tất cả các quyền được bảo lưu. Thiết kế dành cho thú cưng bằng cả trái tim 🐾</p>
+    </div>
+  </footer>
+
+  <!-- ==================== JAVASCRIPT TƯƠNG TÁC ==================== -->
+  <script>
+    // 1. Biến đổi Hamburger Menu thành dấu 'X' và đóng/mở Mobile Navigation
+    const menuToggle = document.getElementById('menuToggle');
+    const siteNav = document.getElementById('siteNav');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    menuToggle.addEventListener('click', () => {
+      const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+      menuToggle.setAttribute('aria-expanded', !isExpanded);
+      menuToggle.classList.toggle('is-active');
+      siteNav.classList.toggle('is-open');
+    });
+
+    // Tự động đóng menu trên Mobile khi bấm vào bất kỳ nav link nào
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('is-active');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        siteNav.classList.remove('is-open');
+        
+        // Cập nhật trạng thái active
+        navLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+      });
+    });
+
+    // 2. Hiệu ứng cuộn trang xuất hiện sinh động (Scroll Reveal)
+    const revealElements = document.querySelectorAll('.scroll-reveal');
+    
+    if ('IntersectionObserver' in window) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target); // Chỉ kích hoạt 1 lần khi cuộn tới
+          }
+        });
+      }, {
+        threshold: 0.12,
+        rootMargin: '0px 0px -40px 0px'
+      });
+
+      revealElements.forEach(el => revealObserver.observe(el));
+    } else {
+      // Fallback nếu trình duyệt cũ không hỗ trợ IntersectionObserver
+      revealElements.forEach(el => el.classList.add('is-visible'));
+    }
+  </script>
+</body>
+</html>
